@@ -1,0 +1,622 @@
+/* ************************************
+************common style***************
+************************************ */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    overflow: hidden;
+}
+.heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.heading span{
+    color: orangered;
+}
+.product_img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.product_img img{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.product_img img:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+/* ************************************
+************common style***************
+************************************ */
+
+
+
+
+/* *********************************************
+********** header section start here*************
+********************************************** */
+.navbar{
+    top: 0%;
+    z-index: 1;
+    position: sticky;
+    box-shadow: 0 0 5px white;
+    background: rgb(13,202,240);
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0 0 4px rgb(0, 121, 233);
+    color: rgb(255, 255, 255);
+}
+.navbar-nav .nav-item{
+    color: white;
+    z-index: 1;
+    padding-right: 20px;
+}
+.navbar-nav .nav-item a{
+    color: white;
+    font-weight: 500;
+}
+.navbar-nav .nav-item button{
+    color: rgb(255, 255, 255);
+}
+.navbar-nav .nav-item ul li a{
+    font-family:sans-serif;
+    color: rgb(0, 0, 0);
+}
+.dropdown{
+    /* position: absolute; */
+    z-index: 99;
+}
+/* *********************************************
+********** header section end here*************
+********************************************** */
+
+
+
+
+/* *********************************************
+**********  Home section section start*************
+********************************************** */
+.section1{
+    padding-top: 2rem;
+    z-index: 0;
+}
+.home_section {
+    border-top: none;
+    border: 2px solid rgb(228, 228, 225);
+    background-color: white;
+}
+.home_section img{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 3px rgb(153, 151, 151);
+}
+.Section1  span{
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: rgb(7, 7, 6);
+}
+.section1 .carousel-item{
+    width: 100%;
+    overflow: hidden;
+    max-height: 40rem;
+}
+.Section1 .carousel-item img{
+    width: 100%;
+    z-index: -1;
+    max-height: 40rem;
+}
+
+/* *********************************************
+**********  Home section section end*************
+********************************************** */
+
+
+
+
+/* *********************************************
+********** Product display section 2-start********
+********************************************** */
+.section2{
+    margin-top: 50px;
+}
+.section2 h1{
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.section2 h1 span{
+    color: orangered;
+}
+.section2 .buy{
+    text-align: center;
+    font-weight: 550;
+}
+.section2 .KarinaImg img{
+    max-width: 100%;
+    margin-top: 50px;
+    min-height: 30rem;
+}
+.section2 .display1 {
+    margin-top: 15px;
+}
+.section2 .display1 .card{
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(222, 216, 216);
+    background-color: rgb(255,255,255);
+}
+.section2 .display1 .card h5{
+    margin-top: -15px;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-align: center;
+}
+.section2 .feedback-Area{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    justify-content: space-between;
+}
+.section2 .display1 .card p{
+    color: rgb(112, 111, 111);
+    font-weight: 500;
+}
+.section2 .display1 .card i{
+    color: orange;
+}
+/* *********************************************
+********** Product display section 2-end********
+********************************************** */
+
+
+/* *********************************************
+**********tranding Product section 3-start********
+********************************************** */
+.section3{
+    margin-top: 7rem;
+}
+.section3 .container-fluid{
+    max-width: 1300px;
+}
+.section3 a {
+    text-decoration: none;
+}
+.section3 h3{
+    font-weight: bold;
+}
+.section3 h3 span{
+    color: orangered;
+}
+.section3 .card{
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(163, 163, 163);
+    background-color:#dfe6e9; 
+
+}
+.section3 .card .saleBtn{
+    align-items: center;
+    display: flex;
+    height:30px;
+}
+.section3 .card .compare{
+    font-weight: 400;
+    color: rgb(199, 0, 0);
+}
+.section3 .card .card-img-top{
+    margin-top: -8px;
+}
+.section3 .card .technology{
+    color: rgb(119, 120, 122);
+    font-weight: 450;
+    margin-top: -12px;
+}
+.section3 .card .card-title{
+    color: rgb(48, 49, 50);
+    font-weight: 600;
+    margin-top: -15px;
+    font-size: 18px;
+}
+.section3 .card .dollar{
+    color: rgb(14, 0, 209);
+    font-weight: 600;
+    font-size: 17px;
+}
+.section3 .card .TrandingI i{
+    color: orange;
+    font-weight: 600;
+    margin-top: 4px;
+    font-size: 17px;
+}
+.section3 .card button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height:30px;
+}
+/* *********************************************
+**********tranding Product section 3-end********
+********************************************** */
+
+
+
+/* *********************************************
+**********question section 4-start********
+********************************************** */
+.section4{
+   margin-top: 80px;
+}
+.section4 .knowMeImg{
+    margin-top: -30px;
+    padding-left: 70px;
+}
+.section4 .accordion-button{
+    background: rgb(207,226,255);
+}
+/* *********************************************
+**********question section 4-end********
+********************************************** */
+
+
+/* *********************************************
+**********Shop By Brand section 5-start********
+********************************************** */
+.section5 .card{
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 115px;
+}
+.section5 .card{
+    height: 100%;
+}
+/* *********************************************
+**********Shop By Brand section 5-end********
+********************************************** */
+
+
+/* *********************************************
+**********top selling product section 6-start********
+********************************************** */
+.section6{
+    margin-top: 100px;
+}
+.section6 .card{
+    background-color: white;
+    box-shadow: 0 0 5px rgb(205, 203, 201);
+}
+.section6 .card img{
+    height: 150px;
+    cursor: pointer;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+.section6 .card img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.TrandingI i{
+    margin-top: 10px;
+    color: orange;
+}
+.sellText h6{
+    margin-top: 15px;
+    height: 50px;
+}
+.sellText p s{
+    color: blue;
+}
+.sellText p{
+    margin-top: 5px;
+    font-weight: 600;
+    color: brown;
+}
+/* *********************************************
+**********top selling product section 6-end********
+********************************************** */
+
+
+
+/* *********************************************
+**********headphone slide  section 7-start********
+********************************************** */
+/* setion-7 start */
+.section7{
+    margin-top: 80px;
+}
+.section7 .container img{
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* *********************************************
+**********headphone slide  section 7-end********
+********************************************** */
+
+
+/* *********************************************
+**********footer section -start********
+********************************************** */
+footer{
+    margin-top: 80px;
+}
+footer hr{
+    height: 2px;
+    margin: 0%;
+    background-color: rgb(0, 252, 248);
+}
+footer .col-md-3{
+    display: flex;
+    justify-content: center;
+}
+footer .col-md-3 a{
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    transition: all 0.4s ease;
+}
+footer .col-md-3 a:hover{
+    text-decoration: underline;
+}
+
+/* *********************************************
+**********footer section -end********
+********************************************** */
+
+
+
+
+
+
+
+
+
+
+/* *****************************************responsive section********************************************************** */
+
+/* *********************************************
+**********responsive section -start********
+********************************************** */
+
+/* **************************************(max-width:992px)****************************** */
+@media (max-width:992px){
+    /* karina afa section start */
+        .section2 .KarinaImg img{
+            max-width: 100%;
+            margin-top: 50px;
+            min-height: 20rem;
+        }
+        .section2 .display1 .card h5{
+            font-size: .8rem;
+            text-align: start;
+        }
+        .section2 .display1 .card p{
+            font-size: .7rem;
+            font-weight: 550;
+            margin-top: -.7rem;
+        }
+        .section2 .feedback-Area{
+            display: block;
+            margin-top: 1rem;
+        }
+        .section2 .display1 .card i{
+            color: orange;
+            font-size: .7rem;
+            margin-top: -1rem;
+        }
+      
+    /* karina afa section end */
+    
+    
+    /*  tranding product section start */
+        .section3{
+            margin-top: 4rem;
+        }
+        .section3 h3 {
+            font-size: 1..8rem;
+        }
+        .section3 .card .technology{
+            font-size: .8rem;
+            margin-top: -12px;
+        }
+        .section3 .card .card-title{
+            margin-top: -15px;
+            font-size: 1rem;
+        }
+        .section3 .card .dollar{
+            font-size: .8rem;
+        }
+        .section3 .card .TrandingI i{
+            margin-top: 4px;
+            font-size: .8rem;
+        }
+        .section3 .card button{
+            font-size: .7rem;
+            height:1.4rem;
+        }
+    /*  tranding product section end */
+    
+    /* question section 4 start */
+        .section4 .knowMeImg{
+            margin-top: 30px;
+        }
+    /* question section 4 end */
+    
+    
+    /* top selling product section -6 start */
+        .section6 .card img{
+            height: 120px;
+        }
+        .section6 .sellText .d-flex{
+            margin-top: -.8rem;
+        }
+        .TrandingI i{
+            padding-top: .5rem;
+        }
+        .section6 .sellText a{
+            text-decoration: none;
+        }
+        .section6 .sellText button{
+            height: 25px;
+            display: flex;
+            font-size: .8rem;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: -.8rem;
+            margin-top: -.4rem;
+        }
+    /* top selling product section -6 end */
+    
+    
+    }
+    
+
+    /* **************************************max-width:768px****************************** */
+    @media (max-width:768px){
+        .home_section{
+            display: none;
+        }
+    /* karina afa section start */
+        .section2 h1{
+            padding-top: 1rem;
+            font-size: 2rem;
+        }
+        .section2 .row{
+            margin-top: -30px;
+        }
+        .section2 .KarinaImg img{
+            max-height: 20rem;
+            max-width: 19rem;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgb(214, 213, 213), -1px -1px 10px rgb(214, 213, 213);
+        }
+        .section2 .display1,
+        .section2 .KarinaImg {
+            display: flex;
+            justify-content: center;
+        }
+        .section2 .display1 .card{
+            max-width: 20rem;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgb(214, 213, 213), -1px -1px 10px rgb(214, 213, 213);
+        }
+        .section2 .display1 .card h5{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .section2 .display1 .card p{
+            font-size: .9rem;
+        }
+        .section2 .feedback-Area{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        .section2 .display1 .card .d-flex{
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .section2 .display1 .card i{
+            font-size: .7rem;
+        }
+    /* karina afa section end */
+    
+    
+    /*  tranding product section start */
+        .section3{
+            margin-top: 5rem;
+        }
+        .section3 .row{
+            margin-top: -3rem;
+        }
+        .section3 .card{
+            max-width: 20rem;
+            margin-top: 1.5rem;
+        }
+        .section3 .col-md-3{
+            display: flex;
+            justify-content: center;
+        }
+    /*  tranding product section end */
+        
+    
+    /* Shop By Brand section -5 start */
+        .section5 h4{
+            text-align: center;
+        }
+        .section5 .card{
+            width: 20rem;
+            min-height: 115px;
+        }
+        .section5 .col-md-2{
+            display: flex;
+            justify-content: center;
+        }
+    /* Shop By Brand section -5 start */
+    
+    /* top selling product section -6 start */
+        .section6 h5{
+            text-align: center;
+        }
+        .section6 .card {
+            max-width: 20rem;
+        }
+        .section6 .col-md-4  {
+            display: flex;
+            justify-content: center;
+        }
+      
+    /* top selling product section -6 end */
+    
+    footer .col-md-3{
+        padding-top: 2rem;
+    }
+    
+    }
+
+/* *********************************************
+**********responsive section -end********
+********************************************** */
